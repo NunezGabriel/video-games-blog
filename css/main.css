@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 75px;
+}
+.social-network-bar{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #00a79e, #7F00FF);
+    display: grid;
+    align-items: center;
+    justify-items: right;
+    grid-template-columns: repeat(3, 1fr);
+}
+.name{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.name a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+.name a:hover{
+    color: #24dd77;
+    transition: all 0.5s;
+}
+.name img{
+    width: 34px;
+    height: 28px;
+    background-image: url("/assets/img/palanca-de-mando.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-social-container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+.about-me{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    font-size: 24px;
+    align-content: center;
+    justify-content: center;    
+}
+.about-me a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 33px;
+    font-family: 'Silkscreen', cursive;
+}
+.about-me a:hover{
+    color: #00ffea;
+    transition: all 0.5s;
+}
+.social-network{
+    width: 400px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    column-gap: 20px;
+    align-items: center;
+}
+.social-network .a1{
+    background-image: url('/assets/img/facebook-logo-white.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-network .a2{
+    background-image: url('/assets/img/Twitter_White_0.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-network .a3{
+    background-image: url('/assets/img/insta.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-network .a4{
+    background-image: url('/assets/img/linkedin-icon-18-256.png');
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-network .a5{
+    background-image: url('/assets/img/White-YouTube-Logo-Transparent.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------------------------------------------------*/
+.main{
+    width: 100%;
+    height: 628px;
+    background-image: url('/assets/img/photo-1612287230202-1ff1d85d1bdf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-info{
+    width: 500px;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    margin-left: 100px;
+}
+.main-info h1{
+    font-size: 40px;
+    color: #cc17e4;
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+.main-info p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: rgb(240, 60, 222);
+    font-family: 'Permanent Marker', cursive;
+}
+.main-info button{
+    width: 170px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #ef32d9, #36fcf8);
+}
+.main-info button a{
+    text-decoration: none;
+    color: white;
+}
+.main-info button:hover{
+    background: #00ffea;
+    transition: all 0.5s;
+}
+.main-info button a:hover{
+    color: #7F00FF;
+    transition: all 0.5s;
+}
+/*----------------------------------ANOTHER PAGE(HOME)------------------------------------------------------*/ 
+.home{
+    display: grid;
+    grid-template-rows: 380px 1000px 60px;
+}
+.last-post{
+    background: linear-gradient(to right, #254a5a, #14827e, #2c3764);
+}
+.last-post-container{
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 295px;
+}
+.last-post-container h4{
+    margin-top: 10px;
+    color: white;
+    grid-column: 1/3;
+}
+.last-post-info{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+    padding: 20px;
+    border-top: #75fff8 solid 3px;
+    border-bottom: #75fff8 solid 3px;
+    border-right: #75fff8 solid 3px;
+}
+.last-post-info h2{
+    text-align: start;
+    font-size: 23px;
+}
+.last-post-info p{
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.last-post-info button{
+    height: 40px;
+    width: 200px;
+    border: 2px solid #00bb9f;
+    background: none;
+    border-radius: 20px;
+}
+.last-post-info button:hover{
+    background: linear-gradient(to right, #008c85, #5906ab);
+    transition: 0.7s;
+    border: 2px solid white;
+}
+.last-post-info button a{
+    text-decoration: none;
+    color: white;
+}
+.last-post-img{
+    background-image: url('/assets/img/66322-h2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: #75fff8 solid 3px;
+    border-bottom: #75fff8 solid 3px;
+    border-left: #75fff8 solid 3px;
+}
+/*----------------------------------------------------------------------------------------*/
+.all-posts{
+    background: linear-gradient(to right, #254a5a, #203a43, #2c3764);
+    display: grid;
+    place-content: center;
+}
+.all-posts-container{
+    height: 800px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+}
+.all-post-item{
+    border: 1px solid red;/*pa mñn xd*/
+}
+.all-post-item-3{
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+/*------------------------------------------------------------------------------------------*/
+.footer{
+    background: linear-gradient(to right, #00837c, #5801b0);
+}
