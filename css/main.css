@@ -178,7 +178,7 @@ html{
 .last-post-container{
     height: 100%;
     width: 900px;
-    margin: 0 auto;
+    margin: 0 auto; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px 295px;
@@ -251,6 +251,8 @@ html{
     background: linear-gradient(to right, #0c1d29, #2b4e63, #24343e); 
     color: white;
     text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .all-post-item h5{
     font-size: 20px;
@@ -333,4 +335,168 @@ html{
     color: #01ffc8;
     margin-bottom: 30px;
     font-size: 13px;
+}
+/*----------------------------------ANOTHER PAGE(about me)------------------------------------------------------*/ 
+.about-me-page{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #254a5a, #14827e, #2c3764);
+}
+.about-me-page-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+.my-info{
+    margin: 0 auto;
+    height: 100%;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70% 30%;
+    color: white;
+    column-gap: 30px;
+}
+.my-info-text h2{
+    text-align: center;
+    font-size: 40px; 
+}
+.my-info-text h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.my-info-text p{
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    margin-left: 15px;
+}
+.my-info-text h4{
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.my-info-img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url('/assets/img/iconPixel.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.my-info-tecno{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 120px;
+    column-gap: 5px;
+    background: linear-gradient(to right, #3f255a, #791482, #3e2c64);
+    border: #75fff8 solid 1px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+
+}
+.my-info-tecno-item-1{
+    background-image: url('/assets/img/csslog.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.my-info-tecno-item-2{
+    background-image: url('/assets/img/htmllog.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.my-info-tecno-item-3{
+    background-image: url('/assets/img/logo-javascript-icon-1024.png');
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.my-info-tecno-item-4{
+    background-image: url('/assets/img/pythonlog.ico');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.my-info-tecno-item-5{
+    background-image: url('/assets/img/Git-Icon-1788C.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.my-info-tecno-item-6{
+    background-image: url('/assets/img/React-icon.svg.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.projects-container{
+    margin: 0 auto;
+    height: 100%;
+    width: 1300px;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+.projects-container h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.projects-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+    column-gap: 20px;
+    padding-top: 15px;
+}
+.proyect-1{
+    background: linear-gradient(to right, #008c85, #5906ab);
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+.proyect-1:hover{
+    background: linear-gradient(to right, #ffffff, #2f2f2f);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.proyect-2{
+    background: linear-gradient(to right, #008c85, #5906ab);
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+.proyect-2:hover{
+    background: linear-gradient(207.8deg, #533215 16.69%, #F7931A 100%);
+    color: rgb(85, 38, 0);
+    transition: 1s;
+}
+.proyect-3{
+    background: linear-gradient(to right, #008c85, #5906ab);
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+.proyect-3:hover{
+    background: linear-gradient(to right, #dd00ff, #00d61d);
+    color: rgb(0, 198, 92);
+    transition: 1s;
 }
