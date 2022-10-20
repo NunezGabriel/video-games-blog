@@ -40,10 +40,6 @@ html{
 .name img{
     width: 34px;
     height: 28px;
-    background-image: url("/assets/img/palanca-de-mando.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .img-social-container{
     display: grid;
@@ -78,7 +74,7 @@ html{
     align-items: center;
 }
 .social-network .a1{
-    background-image: url('./assets/img/facebook-logo-white.png');
+    background-image: url('/assets/img/facebook-logo-white.png');
     width: 100%;
     height: 100%;
     background-size: cover;
