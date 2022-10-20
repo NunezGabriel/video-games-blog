@@ -74,7 +74,7 @@ html{
     align-items: center;
 }
 .social-network .a1{
-    background-image: url('/assets/img/facebook-logo-white.png');
+    background-image: url('../assets/img/facebook-logo-white.png');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -82,7 +82,7 @@ html{
     background-repeat: no-repeat;
 }
 .social-network .a2{
-    background-image: url('/assets/img/Twitter_White_0.png');
+    background-image: url('../assets/img/Twitter_White_0.png');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -90,7 +90,7 @@ html{
     background-repeat: no-repeat;
 }
 .social-network .a3{
-    background-image: url('/assets/img/insta.png');
+    background-image: url('../assets/img/insta.png');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -98,7 +98,7 @@ html{
     background-repeat: no-repeat;
 }
 .social-network .a4{
-    background-image: url('/assets/img/linkedin-icon-18-256.png');
+    background-image: url('../assets/img/linkedin-icon-18-256.png');
     width: 100%;
     height: 90%;
     background-size: cover;
@@ -106,7 +106,7 @@ html{
     background-repeat: no-repeat;
 }
 .social-network .a5{
-    background-image: url('/assets/img/White-YouTube-Logo-Transparent.png');
+    background-image: url('../assets/img/White-YouTube-Logo-Transparent.png');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -118,7 +118,7 @@ html{
 .main{
     width: 100%;
     height: 628px;
-    background-image: url('/assets/img/photo-1612287230202-1ff1d85d1bdf.jpg');
+    background-image: url('../assets/img/photo-1612287230202-1ff1d85d1bdf.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ html{
     color: white;
 }
 .last-post-img{
-    background-image: url('/assets/img/66322-h2.jpg');
+    background-image: url('../assets/img/66322-h2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -394,42 +394,42 @@ html{
 
 }
 .my-info-tecno-item-1{
-    background-image: url('/assets/img/csslog.png');
+    background-image: url('../assets/img/csslog.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .my-info-tecno-item-2{
-    background-image: url('/assets/img/htmllog.png');
+    background-image: url('../assets/img/htmllog.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .my-info-tecno-item-3{
-    background-image: url('/assets/img/logo-javascript-icon-1024.png');
+    background-image: url('../assets/img/logo-javascript-icon-1024.png');
     background-size: 90px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .my-info-tecno-item-4{
-    background-image: url('/assets/img/pythonlog.ico');
+    background-image: url('../assets/img/pythonlog.ico');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .my-info-tecno-item-5{
-    background-image: url('/assets/img/Git-Icon-1788C.png');
+    background-image: url('../assets/img/Git-Icon-1788C.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .my-info-tecno-item-6{
-    background-image: url('/assets/img/React-icon.svg.png');
+    background-image: url('../assets/img/React-icon.svg.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
