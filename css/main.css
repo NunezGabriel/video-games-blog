@@ -40,7 +40,7 @@ html{
 .name img{
     width: 34px;
     height: 28px;
-    background-image: url("/assets/img/palanca-de-mando.png");
+    background-image: url("./assets/img/palanca-de-mando.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
