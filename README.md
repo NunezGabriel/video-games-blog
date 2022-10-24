@@ -1,4 +1,4 @@
-# personal-blog
+# video-games-blog
 un blog de videojuegos usando css grid
 https://nunezgabriel.github.io/personal-blog/
 
